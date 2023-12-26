@@ -6,7 +6,7 @@ const port = 3001;
 app.use(
   cors({
     credentials: true,
-    origin: "https://test-simple-get-post-server",
+    origin: "https://test-simple-get-post-server.onrender.com",
   })
 );
 
